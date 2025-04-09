@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.button-subscribe{
+
+.button-subscribe {
     width: 100px;
     height: 50px;
     background-color: #fc0202;
@@ -10,9 +11,10 @@
     color: azure;
     font-size: 15px;
     font-weight: 600;
- 
+
 }
-.button-sign{
+
+.button-sign {
     width: 100px;
     height: 50px;
     background-color: #faf6f6;
@@ -21,25 +23,160 @@
     font-size: 15px;
     font-weight: 600;
 }
-a{
+
+.image-arrange {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
     text-decoration: none;
     color: black;
     font-size: 17px;
 }
-.titles{
+
+.vertical-line {
+    width: 100px;
+    transform: rotate(90deg);
+    transform-origin: left;
+}
+
+.titles {
     text-align: center;
 }
-.Heading-text{
+
+.Heading-text {
     color: #fc0202;
 }
-.headline-bar{
+
+.headline-bar {
     position: absolute;
 }
-.headline-text{
+
+.headline-text {
     position: relative;
-    top:150px; 
+    top: 150px;
 }
-.sub-news{
+
+.sub-news {
     position: relative;
-    top:200px;
+    top: 200px;
 }
+.item-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.v-line {
+    border-right: 1px solid #727272;
+    padding-right: 10px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.back-shadow{
+    background: #eff1f1;
+    padding:14px;
+}
+
+.section-heading {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    border-left: 3px solid red;
+    padding-left: 0.5rem;
+}
+
+.trending-tags .btn {
+    margin: 0.2rem;
+}
+
+.author {
+    font-size: 0.8rem;
+    color: gray;
+}
+.back-color{
+    background-color: #000;
+    
+    
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+
+}
+.app-logo {
+    width: 50px;
+    height: 50px;
+    /* background-color: #f10606; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f10606;
+    border-radius: 50%;
+    border: #beb7b7;
+}
+.copy-rights{
+    text-align: center;
+}
+
+
+.col-lg-2.md-2.man-wid div img {
+    width: 100%;
+}
+
+.col-lg-2.md-2.man-wid {
+    width: 20%;
+}
+/* .back-color{
+    background: #fff;
+} */
+.hot-shot{
+    display: flex;
+    justify-content:space-around !important;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .category-label {
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #dc3545;
+  }
+  .news-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .right-news img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+  }
+  .right-news .news-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  .section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .section-heading h5 {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .section-heading a {
+    font-size: 0.875rem;
+    text-decoration: none;
+  }
